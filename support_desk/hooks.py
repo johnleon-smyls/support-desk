@@ -174,9 +174,9 @@ required_apps = ["helpdesk"]
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "support_desk.event.get_events"
-# }
+override_whitelisted_methods = {
+	"helpdesk.api.doc.get_list_data": "support_desk.overrides.helpdesk.get_list_data",
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
