@@ -1,6 +1,6 @@
 app_name = "support_desk"
 app_title = "Support Desk"
-app_publisher = "johnleonrive"
+app_publisher = "johnleon-smyls"
 app_description = "Support Portal backend app"
 app_email = "johnleonrive@gmail.com"
 app_license = "mit"
